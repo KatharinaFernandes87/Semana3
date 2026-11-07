@@ -33,19 +33,14 @@ static char randomVowel() {
 }
 
 //e
-static boolean isPrime(int n) {
 
-    while (n != 0) {
-
-    }
-}
 
 void main() {
     IO.println("Exercício a - Verdadeiro ou falso: " + randomBoolean());
     IO.println("Exercício b - : Número de divisores: " + divisors(8));
     IO.println("Exercício c - : Número máximo: " + randomNumberUpTo(5));
     IO.println("Exercício d - : Vogal: " + randomVowel());
-    IO.println("Exercício e - É primo: " + isPrime(6));
+    
 
 
 }
